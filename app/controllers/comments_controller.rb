@@ -12,9 +12,4 @@ class CommentsController < ApplicationController
 		params.require(:comment).permit(:autor, :body)
 	end
 		
-	end
-
-
-
-
 end
